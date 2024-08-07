@@ -1,0 +1,23 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/resources/banner-image.png");
+  width: 1320px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-heading {
+  color: white;
+  text-align: center;
+}
+
+.banner-heading > p {
+  font-size: 36px;
+}
+.banner-heading > h2 {
+  font-size: 72px;
+  font-weight: 900;
+}
