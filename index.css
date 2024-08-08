@@ -10,7 +10,7 @@
 }
 
 .banner-heading {
-  color: white;
+  color: rgb(214, 199, 199);
   text-align: center;
 }
 
@@ -20,4 +20,35 @@
 .banner-heading > h2 {
   font-size: 72px;
   font-weight: 900;
+}
+
+.discount {
+  color: #f00;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+}
+.holiday {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+}
+
+.deal-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-year {
+  width: 500px;
+  height: 300px;
+}
+
+.categories {
+  color: black;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
 }
