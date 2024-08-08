@@ -52,3 +52,35 @@
   font-size: 48px;
   font-weight: 700;
 }
+
+.midnight {
+  width: 1320px;
+  height: 600px;
+  background-image: url("/resources/Vectorrr.png");
+  margin-top: 50px;
+}
+
+.midnight-header {
+  color: white;
+  font-size: 64px;
+  font-weight: 900;
+  padding-left: 140px;
+  padding-top: 126px;
+  padding-bottom: 24px;
+}
+
+.midnight-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 140px;
+  width: 697px;
+}
+
+.midnight > button {
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-left: 140px;
+}
