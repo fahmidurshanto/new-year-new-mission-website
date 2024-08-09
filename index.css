@@ -58,6 +58,8 @@
   height: 600px;
   background-image: url("/resources/Vectorrr.png");
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .midnight-header {
@@ -90,6 +92,15 @@
   font-size: 24px;
   font-weight: 500;
 }
+
+.portfolio > h2,
+.best-gifts,
+.portfolio-description {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .portfolio > h2 {
   color: black;
   font-family: Merriweather;
@@ -97,7 +108,6 @@
 }
 
 .portfolio-description {
-  width: 896px;
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 400;
@@ -105,6 +115,7 @@
 }
 
 .portfolio-images-container {
+  width: 1320px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
@@ -114,4 +125,82 @@
 
 .portfolio-img:hover {
   transform: scale(1.1);
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  width: 1320px;
+  padding: 60px;
+  background: rgba(255, 0, 0, 0.05);
+  margin-left: auto;
+  margin-right: auto;
+}
+.newsletter > img {
+  width: 100px;
+  text-align: center;
+}
+.subscribe {
+  color: black;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  width: 800px;
+  line-height: 32px; /* 160% */
+}
+.input {
+  padding: 10px;
+  border-radius: 50px 0px 0px 50px;
+  border: none;
+}
+.sub-btn {
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 0px 50px 50px 0px;
+  border: none;
+}
+
+.sub-input-container {
+  display: flex;
+}
+
+.footer {
+  width: 1400px;
+  height: 600px;
+  background-color: #070211;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-header,
+.footer-bottom-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-text,
+.footer-bottom-text {
+  color: white;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
