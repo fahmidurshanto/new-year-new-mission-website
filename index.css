@@ -87,7 +87,8 @@
   margin-left: 140px;
 }
 
-.best-gifts {
+.best-gifts,
+.best-offer {
   color: red;
   font-size: 24px;
   font-weight: 500;
@@ -101,17 +102,43 @@
   margin-right: auto;
 }
 
-.portfolio > h2 {
+.portfolio > h2,
+.offer-title {
   color: black;
   font-family: Merriweather;
   font-size: 48px;
 }
 
-.portfolio-description {
+.portfolio-description,
+.offer-description {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 48px;
+}
+
+.year {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.offer > img {
+  /* width: 100px; */
+  /* height: 100px; */
+  padding: 20px;
+  border: 10px solid red; /* Define the border width and color */
+  border-radius: 50%;
+}
+
+.offer {
+  width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-images-container {
@@ -191,16 +218,30 @@
   align-items: center;
 }
 
+.footer-bottom-text {
+  padding-top: 100px;
+}
+
 .footer-text,
 .footer-bottom-text {
   color: white;
 }
 
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  width: 50%;
+  margin: 0 auto;
+}
 .socials {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding: 40px;
+  padding-bottom: 40px;
+}
+
+.offer {
+  width: 1400px;
+  height: 733px;
 }
